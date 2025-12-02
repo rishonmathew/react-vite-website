@@ -3,9 +3,12 @@ Asthi Mortgage Group – Website Build Summary
 Check out the website at: (https://my-repository-3x5y.vercel.app/)
 
 
-#update 
+#update {
+
 As someone studying cybersecurity, I want to acknowledge that during early development I mistakenly committed environment variables while testing deployment. No sensitive client information was exposed, and the issue was corrected immediately.
 All API keys have since been revoked, replaced, and the project has been sanitised to ensure no active credentials or private configurations are included in the repository.
+
+}
 
 This project is a modern mortgage broker website I designed and developed for a client, “Asthi Mortgage Group.” The goal was to create a clean, trustworthy, and professional online presence that makes it easy for clients to understand the services, calculate home-loan estimates, and book appointments.
 

@@ -88,7 +88,7 @@ npm run dev
 
 
 Visit:
-👉 http://localhost:5173/
+👉 (https://my-repository-3x5y-git-main-rishons-projects-2fa4ebbd.vercel.app/)
 
 📦 Build for Production
 npm run build

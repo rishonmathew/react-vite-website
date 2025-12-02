@@ -1,153 +1,68 @@
-📌 Asthi Mortgage Group - Modern Mortgage Brokerage Website
+Asthi Mortgage Group – Website Build Summary
 
-A fully responsive mortgage brokerage website built with React, Vite, and Tailwind CSS.
-Designed for Asthi Mortgage Group, this project delivers a professional, modern UI that showcases services, provides loan calculators, enables client bookings, and offers an exceptional user experience.
+This project is a modern mortgage broker website I designed and developed for a client, “Asthi Mortgage Group.” The goal was to create a clean, trustworthy, and professional online presence that makes it easy for clients to understand the services, calculate home-loan estimates, and book appointments.
 
-🚀 Features
-🏠 Modern UI
+Planning & Design
 
-Clean and premium visual design
+Before writing any code, I planned the site structure and overall look. The client shared examples like Amma Care and IdealLoanz, so I focused on building a similar modern layout using React and Tailwind.
 
-Custom branding (AMG logo, purple/dark theme)
+For branding, we created a unique AMG logo and picked a colour palette using Coolors.co.
+Final palette:
 
-Smooth spacing, typography, animations
+#48297A (main purple)
 
-📱 Fully Responsive
+#111218 (dark background)
 
-Looks great on desktops, tablets, and mobile devices
+#E9F1F7 (light accent)
 
-Responsive nav menu (desktop + mobile drawer)
+These colours helped give the site a premium, finance-focused vibe.
 
-💼 Mortgage Services
+What I Built
 
-Overview of key services (Refinancing, First Home, Investment Loans, etc.)
+The website includes:
 
-Easy-to-read, trust-focused layout
+A custom navigation bar with the AMG logo and quick links
 
-💰 Loan Calculators
+A clean hero section introducing the brand
 
-Borrowing Power Calculator
+A services section explaining loan options
 
-Loan Repayment Calculator
+A loan calculator (borrowing power + repayment estimate)
 
-Instant results with user-friendly inputs
+A booking form for clients to request appointments
 
-📅 Booking System
+A responsive layout that works on desktop and mobile
 
-Client booking form (name, contact, loan type, date/time, notes)
+Everything was designed to look minimal, smooth, and easy to read.
 
-Can be extended with Supabase / email API for notifications
+Tech Used
 
-🖥️ Admin Ready (Optional Future Feature)
+I built the site using:
 
-Admin dashboard for upcoming bookings
+React + Vite for fast development
 
-Real-time updates
+Tailwind CSS for styling
 
-Export to CSV
+Custom components for modularity
 
-🎨 Branding & Design
+Vercel for deployment preview
 
-Built around Asthi Mortgage Group’s custom branding:
+I also learned to set up Tailwind’s newer PostCSS configuration, since Tailwind 4 updated how it works.
 
-Element	Value
-Logo	Custom AMG one-line symbol
-Primary Color	#48297A
-Dark Background	#111218
-Light Accent	#E9F1F7
-Font Style	Tailwind defaults + soft rounded headings
+Execution
 
-The UI is inspired by modern financial services websites and built for trust, clarity, and conversion.
+The build process was:
 
-Colours were picked on coolors.co to get beautiful, unique vibrant colours
+Setting up the project with React + Vite
 
-🛠️ Tech Stack
+Installing Tailwind and configuring the theme with our custom colours
 
-React 19
+Building reusable components (Navbar, Hero, Services, Calculator, Booking Form)
 
-Vite 7
+Making everything responsive
 
-Tailwind CSS 4 (with new PostCSS plugin)
+Testing the UI and adjusting spacing/colours
 
-JavaScript (ES2023)
+Deploying the preview version so the client can review it before connecting a domain
 
-Vercel / Netlify for deployment
-
-Supabase (optional for backend)
-
-▶️ Running Locally
-1. Clone the repo
-git clone https://github.com/yourusername/asthi-mortgage-group.git
-cd asthi-mortgage-group
-
-2. Install dependencies
-npm install
-
-3. Start the dev server
-npm run dev
-
-
-Visit:
-👉 (https://my-repository-3x5y-git-main-rishons-projects-2fa4ebbd.vercel.app/)
-
-📦 Build for Production
-npm run build
-
-
-To preview production build:
-
-npm run preview
-
-🌐 Deployment
-
-Built for seamless deployment on Vercel:
-
-Push the project to GitHub
-
-Go to https://vercel.com
-
-Import your repo
-
-Deploy instantly
-
-Share the preview link with the client
-
-Alternatively, drag the dist/ folder into Netlify.
-
-⭐ Client Goal
-
-To provide a modern, fast, trustworthy online experience for homebuyers, investors, and refinancers who want professional mortgage guidance.
-
-This website improves:
-
-Lead generation
-
-Customer onboarding
-
-Brand credibility
-
-Ease of contact
-
-Loan education
-
-👨‍💻 Developer Notes
-
-This project was built as a professional website + portfolio piece combining:
-
-Modern React architecture
-
-Tailwind 4 best practices
-
-Clean layout inspired by real industry websites
-
-Expandability for backend features
-
-Future plans include:
-
-SMS/email notifications
-
-Login portal for clients
-
-Admin dashboard
-
-Automated quote generation
+This project helped me practice frontend structure, branding consistency, and real-world client communication.

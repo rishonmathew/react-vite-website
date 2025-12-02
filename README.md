@@ -47,7 +47,10 @@ I built the site using:
 
   - Custom components for modularity
 
-   - Vercel for deployment preview
+  - Vercel for deployment preview
+
+  - AI (chatgpt), for debugging, tidying code and general assistance
+  
 
 I also learned to set up Tailwind’s newer PostCSS configuration, since Tailwind 4 updated how it works.
 

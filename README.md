@@ -75,30 +75,6 @@ Vercel / Netlify for deployment
 
 Supabase (optional for backend)
 
-📁 Project Structure
-my-react-app/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Services.jsx
-│   │   ├── Calculator.jsx
-│   │   ├── BookingForm.jsx
-│   │   └── Footer.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Services.jsx
-│   │   ├── Calculator.jsx
-│   │   └── Contact.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── tailwind.config.js
-├── postcss.config.js
-├── package.json
-└── README.md
-
 ▶️ Running Locally
 1. Clone the repo
 git clone https://github.com/yourusername/asthi-mortgage-group.git

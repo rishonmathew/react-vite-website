@@ -1,4 +1,6 @@
 !IMPORTANT
+
+
 This project was reviewed and updated in response to recent discussions around CVE-2025-55182 (“React2Shell”), a critical vulnerability affecting React Server Components (RSC) and frameworks that use the React Flight protocol (e.g., Next.js App Router, Turbopack, and react-server-dom-* packages).
 
 This website is not affected by the vulnerability, as it is built using a client-side React + Vite SPA architecture with no React Server Components, no server-side rendering (SSR), and no Flight protocol usage.

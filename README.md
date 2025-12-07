@@ -1,14 +1,37 @@
-Asthi Mortgage Group – Website Build Summary
+!IMPORTANT
+This project was reviewed and updated in response to recent discussions around CVE-2025-55182 (“React2Shell”), a critical vulnerability affecting React Server Components (RSC) and frameworks that use the React Flight protocol (e.g., Next.js App Router, Turbopack, and react-server-dom-* packages).
+
+This website is not affected by the vulnerability, as it is built using a client-side React + Vite SPA architecture with no React Server Components, no server-side rendering (SSR), and no Flight protocol usage.
+However, as a cybersecurity student following best practices, I still applied the following safety measures:
+
+✔ React Updated to Patched Version
+
+React and React DOM were upgraded to their latest patched releases to ensure no vulnerable versions remain in the dependency tree.
+
+✔ Dependency Audit
+
+npm audit fix was run and all vulnerabilities were resolved, resulting in a clean dependency set with 0 known security issues.
+
+✔ Secret Key Rotation & Cleanup
+
+During early development, environment variables were accidentally committed.
+These were immediately revoked, replaced, and removed from version control.
+A full history rewrite was performed to ensure no API keys exist in any commit.
+A .gitignore file now properly excludes .env and other sensitive configurations.
+
+✔ Build & Config Hardening
+
+The Vite configuration was cleaned to remove undefined environment references that could impact routing or build stability. The build now operates with a minimal, safe configuration.
+
+✔ Static Deployment Architecture
+
+Because the project is deployed as a static frontend (no server-side execution), it has no attack surface for code execution vulnerabilities such as React2Shell.
+
+
+**Asthi Mortgage Group – Website Build Summary**
 
 Check out the website at: (https://my-repository-3x5y.vercel.app/)
 
-
-#update {
-
-As someone studying cybersecurity, I want to acknowledge that during early development I mistakenly committed environment variables while testing deployment. No sensitive client information was exposed, and the issue was corrected immediately.
-All API keys have since been revoked, replaced, and the project has been sanitised to ensure no active credentials or private configurations are included in the repository.
-
-}
 
 This project is a modern mortgage broker website I designed and developed for a client, “Asthi Mortgage Group.” The goal was to create a clean, trustworthy, and professional online presence that makes it easy for clients to understand the services, calculate home-loan estimates, and book appointments.
 

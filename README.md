@@ -6,26 +6,26 @@ This project was reviewed and updated in response to recent discussions around C
 This website is not affected by the vulnerability, as it is built using a client-side React + Vite SPA architecture with no React Server Components, no server-side rendering (SSR), and no Flight protocol usage.
 However, as a cybersecurity student following best practices, I still applied the following safety measures:
 
-✔ React Updated to Patched Version
+1. React Updated to Patched Version
 
 React and React DOM were upgraded to their latest patched releases to ensure no vulnerable versions remain in the dependency tree.
 
-✔ Dependency Audit
+2. Dependency Audit
 
 npm audit fix was run and all vulnerabilities were resolved, resulting in a clean dependency set with 0 known security issues.
 
-✔ Secret Key Rotation & Cleanup
+3. Secret Key Rotation & Cleanup
 
 During early development, environment variables were accidentally committed.
 These were immediately revoked, replaced, and removed from version control.
 A full history rewrite was performed to ensure no API keys exist in any commit.
 A .gitignore file now properly excludes .env and other sensitive configurations.
 
-✔ Build & Config Hardening
+4. Build & Config Hardening
 
 The Vite configuration was cleaned to remove undefined environment references that could impact routing or build stability. The build now operates with a minimal, safe configuration.
 
-✔ Static Deployment Architecture
+5. Static Deployment Architecture
 
 Because the project is deployed as a static frontend (no server-side execution), it has no attack surface for code execution vulnerabilities such as React2Shell.
 

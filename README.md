@@ -1,5 +1,4 @@
-!IMPORTANT
-
+**IMPORTANT**
 
 This project was reviewed and updated in response to recent discussions around CVE-2025-55182 (“React2Shell”), a critical vulnerability affecting React Server Components (RSC) and frameworks that use the React Flight protocol (e.g., Next.js App Router, Turbopack, and react-server-dom-* packages).
 
@@ -29,6 +28,7 @@ The Vite configuration was cleaned to remove undefined environment references th
 
 Because the project is deployed as a static frontend (no server-side execution), it has no attack surface for code execution vulnerabilities such as React2Shell.
 
+---
 
 **Asthi Mortgage Group – Website Build Summary**
 
@@ -37,8 +37,9 @@ Check out the website at: (https://my-repository-3x5y.vercel.app/)
 
 This project is a modern mortgage broker website I designed and developed for a client, “Asthi Mortgage Group.” The goal was to create a clean, trustworthy, and professional online presence that makes it easy for clients to understand the services, calculate home-loan estimates, and book appointments.
 
+---
 
-Planning & Design
+**Planning & Design**
 
 Before writing any code, I planned the site structure and overall look. The client shared examples like Amma Care and IdealLoanz, so I focused on building a similar modern layout using React and Tailwind.
 
@@ -53,7 +54,9 @@ Final palette:
 
 These colours helped give the site a premium, finance-focused vibe.
 
-What I Built
+---
+
+**What I Built**
 
 The website includes:
 
@@ -71,7 +74,9 @@ The website includes:
 
   - Everything was designed to look minimal, smooth, and easy to read.
 
-Tech Used
+---
+
+**Tech Used**
 
 I built the site using:
 
@@ -88,7 +93,9 @@ I built the site using:
 
 I also learned to set up Tailwind’s newer PostCSS configuration, since Tailwind 4 updated how it works.
 
-Execution
+---
+
+**Execution**
 
 The build process was:
 
@@ -103,5 +110,7 @@ The build process was:
   5. Testing the UI and adjusting spacing/colours
 
   6. Deploying the preview version so the client can review it before connecting a domain
+
+---
 
 This project helped me practice frontend structure, branding consistency, and real-world client communication and refine my javascript skills.

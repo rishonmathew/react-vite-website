@@ -93,25 +93,6 @@ This was my first full-stack project with a real database, and first time workin
 
 Started with basic functionality, then enhanced the UI and added features with some AI help to speed things up and meet client deadlines.
 
-## Run Locally
-
-```bash
-npm install
-npm run dev
-```
-
-Then open `http://localhost:5173`
-
-## Deploy
-
-Uses Vercel for deployment. Just connect the GitHub repo and it auto-deploys on push.
-
-Don't forget to add the environment variables in Vercel settings.
-
-## Admin Access
-
-Go to `/login` to access the admin dashboard. You need to create a user in Supabase first.
-
 ---
 
-Built by Rishon Mathew for a client project (2024-2025)
+Built by Rishon Mathew for a client project (2025-2026)

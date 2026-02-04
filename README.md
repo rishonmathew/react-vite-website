@@ -35,39 +35,14 @@ After the initial deployment, we discovered environment variables were accidenta
 
 Good learning experience on production security practices. Now the site properly separates public and protected data with database-level security policies.
 
-## Setup
-
-1. Clone the repo
-   ```bash
-   git clone https://github.com/rishonmathew/react-vite-website.git
-   cd react-vite-website
-   ```
-
-2. Install dependencies
-   ```bash
-   npm install
-   ```
-
-3. Create `.env.local` with your Supabase credentials:
-   ```
-   VITE_SUPABASE_URL=your_url
-   VITE_SUPABASE_ANON_KEY=your_key
-   ```
-
-4. Run it
-   ```bash
-   npm run dev
-   ```
 
 ## Database Setup
 
-You need these tables in Supabase:
+Tables in Supabase:
 
 **bookings** - stores consultation requests  
 **contacts** - stores contact form submissions  
 **testimonials** - stores customer reviews
-
-SQL schema is in the docs folder if needed.
 
 ## Features I'm Proud Of
 

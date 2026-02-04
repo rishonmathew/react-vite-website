@@ -2,8 +2,6 @@
 
 A full-stack React website built for a mortgage broker client. Built to practice modern web development with React, Tailwind, and Supabase.
 
-**Note:** This is a sanitized version of the client project with business-specific branding removed for portfolio purposes.
-
 ## What It Does
 
 A functional mortgage broker site with:

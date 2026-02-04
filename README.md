@@ -96,3 +96,4 @@ Started with basic functionality, then enhanced the UI and added features with s
 ---
 
 Built by Rishon Mathew for a client project (2025-2026)
+*permission was obtained from client prior to uploading to github
